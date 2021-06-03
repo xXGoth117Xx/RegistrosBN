@@ -1,0 +1,20 @@
+{
+  "registrobn": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-registrosbn-registrobn-170112-authRole",
+      "UnauthRoleArn": "arn:aws:iam::780148743741:role/amplify-registrosbn-registrobn-170112-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::780148743741:role/amplify-registrosbn-registrobn-170112-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-registrosbn-registrobn-170112-deployment",
+      "UnauthRoleName": "amplify-registrosbn-registrobn-170112-unauthRole",
+      "StackName": "amplify-registrosbn-registrobn-170112",
+      "StackId": "arn:aws:cloudformation:us-west-2:780148743741:stack/amplify-registrosbn-registrobn-170112/929fb8a0-5785-11eb-ae5b-0a5813a52bd7",
+      "AmplifyAppId": "d2f2g149mpiifz"
+    },
+    "categories": {
+      "auth": {
+        "registrosbn94dbd7ad": {}
+      }
+    }
+  }
+}

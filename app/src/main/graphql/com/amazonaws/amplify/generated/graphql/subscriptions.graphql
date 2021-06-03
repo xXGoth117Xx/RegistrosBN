@@ -1,0 +1,67 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateCodigo {
+  onCreateCodigo {
+    id
+    codigo
+    idorden
+    fecha
+    nombre
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateCodigo {
+  onUpdateCodigo {
+    id
+    codigo
+    idorden
+    fecha
+    nombre
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteCodigo {
+  onDeleteCodigo {
+    id
+    codigo
+    idorden
+    fecha
+    nombre
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateCorte {
+  onCreateCorte {
+    id
+    dinero
+    registradora
+    nombre
+    fecha
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateCorte {
+  onUpdateCorte {
+    id
+    dinero
+    registradora
+    nombre
+    fecha
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteCorte {
+  onDeleteCorte {
+    id
+    dinero
+    registradora
+    nombre
+    fecha
+    createdAt
+    updatedAt
+  }
+}

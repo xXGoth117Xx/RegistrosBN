@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <TextView
+        android:id="@+id/TxtDineroRetirado"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/dinero_retirado"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/EdtDineroRetirado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:textSize="15sp"  />
+
+    <TextView
+        android:id="@+id/TxtDineroCaja"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/dinero_en_caja"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/EdtDineroCaja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TxtQuien"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/quien_hizo_el_corte"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/EdtQuien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TxtFecha"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/fecha"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/EdtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TxtHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/hora"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/EdtHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="10dp"
+        android:textSize="15sp" />
+
+</androidx.cardview.widget.CardView>

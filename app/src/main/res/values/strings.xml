@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RegistrosBN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="c_digo">Código de cancelación</string>
+    <string name="mercancia">Mercancia</string>
+    <string name="materias">Materias</string>
+    <string name="solicitud_de_c_digo">Solicitud de código</string>
+    <string name="id_de_orden">Id de orden</string>
+    <string name="ingrese_id_de_orgen_a_cancelar">ID de orden a cancelar</string>
+    <string name="corte_de_caja">Cortes de caja</string>
+    <string name="c_digo_generado">Código generado</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="agregar_corte">Registrar corte</string>
+    <string name="id">ID:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="tama_o">Tamaño:</string>
+    <string name="piezas">Piezas:</string>
+    <string name="costo_unitario">Costo unitario:</string>
+    <string name="costo_total">Costo total:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="dinero_retirado">Dinero retirado:</string>
+    <string name="dinero_en_caja">Dinero en caja:</string>
+    <string name="fecha1">Fecha</string>
+    <string name="hora">Hora: </string>
+    <string name="quien_hizo_el_corte">¿Quien hizo el corte?</string>
+    <string name="registrar_corte">Registrar corte</string>
+    <string name="retiro">Retiro:</string>
+    <string name="dinero_en_caja1">Dinero en caja</string>
+    <string name="quien_hace_el_corte">¿Quien hace el corte?</string>
+    <string name="corte">Corte</string>
+    <string name="bocado_nacional">Bocado Nacional</string>
+</resources>

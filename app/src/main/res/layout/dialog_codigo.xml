@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TxtMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/c_digo_generado"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TxtCodigo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:text=""
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/BtnCerrar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="20sp"
+            android:text="@string/cerrar"
+            android:textColor="#FFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

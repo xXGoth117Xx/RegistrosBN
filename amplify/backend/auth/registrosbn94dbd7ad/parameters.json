@@ -1,0 +1,53 @@
+{
+    "identityPoolName": "registrosbn94dbd7ad_identitypool_94dbd7ad",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "regist94dbd7ad",
+    "userPoolName": "registrosbn94dbd7ad_userpool_94dbd7ad",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "userpoolClientLambdaRole": "regist94dbd7ad_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "94dbd7ad",
+    "resourceName": "registrosbn94dbd7ad",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "dependsOn": []
+}

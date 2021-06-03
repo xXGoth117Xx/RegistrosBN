@@ -1,0 +1,85 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateCodigo(
+  $input: CreateCodigoInput!
+  $condition: ModelCodigoConditionInput
+) {
+  createCodigo(input: $input, condition: $condition) {
+    id
+    codigo
+    idorden
+    fecha
+    nombre
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateCodigo(
+  $input: UpdateCodigoInput!
+  $condition: ModelCodigoConditionInput
+) {
+  updateCodigo(input: $input, condition: $condition) {
+    id
+    codigo
+    idorden
+    fecha
+    nombre
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteCodigo(
+  $input: DeleteCodigoInput!
+  $condition: ModelCodigoConditionInput
+) {
+  deleteCodigo(input: $input, condition: $condition) {
+    id
+    codigo
+    idorden
+    fecha
+    nombre
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateCorte(
+  $input: CreateCorteInput!
+  $condition: ModelCorteConditionInput
+) {
+  createCorte(input: $input, condition: $condition) {
+    id
+    dinero
+    registradora
+    nombre
+    fecha
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateCorte(
+  $input: UpdateCorteInput!
+  $condition: ModelCorteConditionInput
+) {
+  updateCorte(input: $input, condition: $condition) {
+    id
+    dinero
+    registradora
+    nombre
+    fecha
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteCorte(
+  $input: DeleteCorteInput!
+  $condition: ModelCorteConditionInput
+) {
+  deleteCorte(input: $input, condition: $condition) {
+    id
+    dinero
+    registradora
+    nombre
+    fecha
+    createdAt
+    updatedAt
+  }
+}

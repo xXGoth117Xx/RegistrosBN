@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_codigo">
+
+    <fragment
+        android:id="@+id/nav_codigo"
+        android:name="com.bocado.registrosbn.ui.codigo.CodigoFragment"
+        android:label="Código"
+        tools:layout="@layout/fragment_corte" />
+
+    <fragment
+        android:id="@+id/nav_corte"
+        android:name="com.bocado.registrosbn.ui.corte.CorteFragment"
+        android:label="Corte"
+        tools:layout="@layout/fragment_codigo" />
+
+</navigation>

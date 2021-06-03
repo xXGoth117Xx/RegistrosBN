@@ -1,0 +1,59 @@
+# this is an auto generated file. This will be overwritten
+query GetCodigo($id: ID!) {
+  getCodigo(id: $id) {
+    id
+    codigo
+    idorden
+    fecha
+    nombre
+    createdAt
+    updatedAt
+  }
+}
+query ListCodigos(
+  $filter: ModelCodigoFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listCodigos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      codigo
+      idorden
+      fecha
+      nombre
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}
+query GetCorte($id: ID!) {
+  getCorte(id: $id) {
+    id
+    dinero
+    registradora
+    nombre
+    fecha
+    createdAt
+    updatedAt
+  }
+}
+query ListCortes(
+  $filter: ModelCorteFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listCortes(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      dinero
+      registradora
+      nombre
+      fecha
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}

@@ -1,0 +1,15 @@
+type Codigo @model {
+  id: ID!
+  codigo: String!
+  idorden: String!
+  fecha: String!
+  nombre: String!
+}
+
+type Corte @model {
+  id: ID!
+  dinero: String!
+  registradora: String!
+  nombre: String!
+  fecha: String!
+}
