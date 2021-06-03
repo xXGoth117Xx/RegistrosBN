@@ -15,7 +15,6 @@ import com.amplifyframework.analytics.AnalyticsException;
 import com.amplifyframework.core.Amplify;
 import com.amplifyframework.datastore.AWSDataStorePlugin;
 import com.bocado.registrosbn.Clientes.ClientFactory;
-import com.bocado.registrosbn.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.FirebaseApp;
